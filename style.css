@@ -1,0 +1,13 @@
+body , html{
+    background-color: #1e2952;
+    /* Código hexadecimal para azul ballena */
+    /* o */
+    /* background-color: deepskyblue; */
+    /* Nombre del color en inglés para azul ballena */
+    color: #fff;
+    /* Color de texto en blanco para un contraste adecuado */
+    scroll-behavior: smooth;
+}
+a {
+    color: white;
+}
