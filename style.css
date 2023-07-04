@@ -11,3 +11,10 @@ body , html{
 a {
     color: white;
 }
+.contacto-box {
+    max-width: 500px; /* Ajusta el ancho máximo del cuadro de contacto según tus necesidades */
+    margin: 0 auto; /* Centra horizontalmente el cuadro de contacto */
+    padding: 20px; /* Ajusta el espacio interno del cuadro de contacto según tus necesidades */
+    background-color:  #232a44; /* Ajusta el color de fondo del cuadro de contacto según tus necesidades */
+  }
+  
