@@ -14,8 +14,8 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-green bg-dark">
-            <a class="navbar-dark">Gonzalo Barbagelata</a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand">Gonzalo Barbagelata</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -34,47 +34,52 @@
                 </ul>
             </div>
         </nav>
+
     </header>
     <main>
         <section id="galeria" class="py-5">
             <div class="container">
-                <h2 class="text-center mb-4">Galería de Fotos</h2>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="foto1.jpg" class="card-img-top" alt="Foto 1">
-                            <div class="card-body">
-                                <h5 class="card-title">Foto 1</h5>
-                                <p class="card-text">Descripción de la foto 1.</p>
-                            </div>
+                <h2 class="text-center mb-4">Galería de Fotos.</h2>
+                <div id="carouselExample" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExample" data-slide-to="1"></li>
+                        <li data-target="#carouselExample" data-slide-to="2"></li>
+                        <!-- Agrega más elementos <li> para cada foto -->
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://images.pexels.com/photos/1025469/pexels-photo-1025469.jpeg?auto=compress&cs=tinysrgb&w=400"
+                                class="d-block w-100 carousel-image" alt="Foto 1">
                         </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="foto2.jpg" class="card-img-top" alt="Foto 2">
-                            <div class="card-body">
-                                <h5 class="card-title">Foto 2</h5>
-                                <p class="card-text">Descripción de la foto 2.</p>
-                            </div>
+                        <div class="carousel-item">
+                            <img src="https://images.pexels.com/photos/2246476/pexels-photo-2246476.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                class="d-block w-100 carousel-image" alt="Foto 2">
                         </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="foto3.jpg" class="card-img-top" alt="Foto 3">
-                            <div class="card-body">
-                                <h5 class="card-title">Foto 3</h5>
-                                <p class="card-text">Descripción de la foto 3.</p>
-                            </div>
+                        <div class="carousel-item">
+                            <img src="https://images.pexels.com/photos/3560168/pexels-photo-3560168.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                class="d-block w-100 carousel-image" alt="Foto 3">
                         </div>
+                        <!-- Agrega más elementos <div class="carousel-item"> para cada foto -->
                     </div>
+                    <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Siguiente</span>
+                    </a>
                 </div>
             </div>
         </section>
         <section id="sobre-mi" class="py-5">
             <div class="container">
-                <h2 class="text-center mb-4">Sobre mí</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla hendrerit commodo felis, non vulputate
-                    lorem fringilla nec.</p>
+                <h2 class="text-center mb-4">PROFESSIONAL PHOTOGRAPHY SERVICES</h2>
+                <p>Gonzalo Barbageleta Photography specialises in a variety of photographic genres like Wildlife,
+                    Landscape,Travel, Architecture & Interior and Real Estate photography . Offering a selection of
+                    Photographic Safaris and Workshops to top destinations in Africa.
+                    Available for assignments worldwide. </p>
             </div>
         </section>
         <section id="contacto" class="py-5">
@@ -82,18 +87,21 @@
                 <h2 class="text-center mb-4">Contacto</h2>
                 <div class="contacto-box">
                     <div class="redes-sociales">
-                        <a href="https://www.facebook.com/tu_perfil" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook fa-4x"></i></a>
-                        <a href="https://www.instagram.com/tu_perfil" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram fa-4x"></i></a>
-                        <a href="https://wa.me/tu_numero_de_telefono" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp fa-4x"></i></a>
+                        <a href="https://www.facebook.com/tu_perfil" target="_blank" rel="noopener noreferrer"><i
+                                class="fab fa-facebook fa-4x"></i></a>
+                        <a href="https://www.instagram.com/tu_perfil" target="_blank" rel="noopener noreferrer"><i
+                                class="fab fa-instagram fa-4x"></i></a>
+                        <a href="https://wa.me/tu_numero_de_telefono" target="_blank" rel="noopener noreferrer"><i
+                                class="fab fa-whatsapp fa-4x"></i></a>
                     </div>
                 </div>
             </div>
         </section>
-        
+
     </main>
-    <footer class="py-4 bg-dark text-white text-center">
+    <footer class="py-1 bg-dark text-white text-center">
         <div class="container">
-            <p>Todos los derechos reservados @Salazar Mario; 2023</p>
+            <p>Todos los derechos reservados @Salazar Mario 2023</p>
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

@@ -1,4 +1,5 @@
-body , html{
+body,
+html {
     background-color: #1e2952;
     /* Código hexadecimal para azul ballena */
     /* o */
@@ -8,13 +9,32 @@ body , html{
     /* Color de texto en blanco para un contraste adecuado */
     scroll-behavior: smooth;
 }
+
 a {
     color: white;
 }
 .contacto-box {
-    max-width: 500px; /* Ajusta el ancho máximo del cuadro de contacto según tus necesidades */
-    margin: 0 auto; /* Centra horizontalmente el cuadro de contacto */
-    padding: 20px; /* Ajusta el espacio interno del cuadro de contacto según tus necesidades */
-    background-color:  #232a44; /* Ajusta el color de fondo del cuadro de contacto según tus necesidades */
-  }
-  
+    max-width: 500px;
+    /* Ajusta el ancho máximo del cuadro de contacto según tus necesidades */
+    margin: 0 auto;
+    /* Centra horizontalmente el cuadro de contacto */
+    padding: 20px;
+    /* Ajusta el espacio interno del cuadro de contacto según tus necesidades */
+    background-color: #232a44;
+    /* Ajusta el color de fondo del cuadro de contacto según tus necesidades */
+}
+
+.carousel-image {
+    max-height: 400px;
+    /* Ajusta la altura máxima de las imágenes según tus necesidades */
+    object-fit: contain;
+    /* Ajusta la forma en que las imágenes se ajustan dentro del contenedor */
+}
+
+#sobre-mi {
+    background-color: black !important;
+}
+
+#contacto{
+    background-color: black !important;
+}
